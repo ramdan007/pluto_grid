@@ -52,16 +52,7 @@ class _DualModeScreenState extends State<DualModeScreen> {
         type: PlutoColumnType.text(),
         enableRowChecked: true,
       ),
-      PlutoColumn(
-        title: 'Point',
-        field: 'point',
-        type: PlutoColumnType.number(),
-      ),
-      PlutoColumn(
-        title: 'grade',
-        field: 'grade',
-        type: PlutoColumnType.select(<String>['A', 'B', 'C']),
-      ),
+
     ]);
 
     gridARows.addAll(DummyData.rowsByColumns(
@@ -76,16 +67,7 @@ class _DualModeScreenState extends State<DualModeScreen> {
         type: PlutoColumnType.text(),
         enableRowChecked: true,
       ),
-      PlutoColumn(
-        title: 'Date',
-        field: 'date',
-        type: PlutoColumnType.date(),
-      ),
-      PlutoColumn(
-        title: 'Time',
-        field: 'time',
-        type: PlutoColumnType.time(),
-      ),
+
     ]);
   }
 
